@@ -1,13 +1,9 @@
-# 👩🏼‍💻 Git e Github - Do iniciante ao expert
+# 👩🏼‍💻 Git e Github - Do iniciante ao expert - andamento ⏳
 
-<h3 align="center"> Módulo em andamento ⏳ </h3>
 
----
-</br>
+#### **Git** é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
 
-> Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
-
-> Github é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+#### **Github** é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
 
 Este curso abordou os seguintes temas: 
