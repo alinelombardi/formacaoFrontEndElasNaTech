@@ -8,13 +8,13 @@ Este curso abordou os seguintes temas:
 - Apresentação da ferramenta;
 - Porque utiliza-lá;
 - Instalação no Windows, Linux e MAC OS e utilização online;
-- Conhecendo navegação principal, activity bar, panels e status bar;
-- Atalhos e configurações essenciais;
-- Atalhos avançados e hacks para edução;
-- Terminal do VS Code;
-- Minu curso de Emmet;
-- Melhores extensões para produtividade;
-- Produtividade com React.
+- Conhecendo a barra de navegação principal, activity bar, panels e status bar;
+- Melhorar produtividade no VS Code
+- Conhecer as melhores extensões do Visual Studio Code
+- Aprender os atalhos mais eficazes do editor
+- Técnicas de produtividade com o VS Code
+- Produtividade em linguagens e frameworks específicos
+- Escrever código melhor e mais rápido
 
 
 A pasta [Vs Code](/modulo1/vsCode/) foi utilizada para testes de todos os temas abordados neste curso. 
