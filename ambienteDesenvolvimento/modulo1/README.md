@@ -1,8 +1,6 @@
 # 👩🏼‍💻  Visual Studio Code: Produtividade Absoluta - Concluído ✅
 
-
-Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
-
+#### Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 Este curso abordou os seguintes temas: 
 - Apresentação da ferramenta;
@@ -18,5 +16,3 @@ Este curso abordou os seguintes temas:
 
 
 A pasta [Vs Code](/modulo1/vsCode/) foi utilizada para testes de todos os temas abordados neste curso. 
-
-
