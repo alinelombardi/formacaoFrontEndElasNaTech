@@ -32,9 +32,9 @@ O **Grupo CCR** atua nos segmentos de concessão de rodovias, mobilidade urbana,
 
 ### 🖥️ Módulos da formação: (em construção)
 
-- 🗂️ [Visual Studio Code: Produtividade Absoluta](/modulo1/README.md);
+- 🗂️ [Visual Studio Code: Produtividade Absoluta](/md1-ambienteDesenvolvimento/curso1/README.md);
 
-- 🗂️ [Dominando Git e GitHub - Do iniciante ao expert](/modulo2/README.md);
+- 🗂️ [Dominando Git e GitHub - Do iniciante ao expert](/md1-ambienteDesenvolvimento/curso2/README.md);
 
 - 🗂️ Web Design Completo: HTML5, CSS3 e JS + 5 Projetos; - em andamento
 

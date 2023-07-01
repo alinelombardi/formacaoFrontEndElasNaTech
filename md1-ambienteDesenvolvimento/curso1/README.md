@@ -15,4 +15,4 @@ Este curso abordou os seguintes temas:
 - Escrever código melhor e mais rápido
 
 
-A pasta [Vs Code](/modulo1/vsCode/) foi utilizada para testes de todos os temas abordados neste curso. 
+A pasta [Vs Code](/md1-ambienteDesenvolvimento/curso1/vsCode/) foi utilizada para testes de todos os temas abordados neste curso. 
