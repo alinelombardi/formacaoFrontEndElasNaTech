@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjunto de dados</title>
+</head>
+
+<body>
+
+    <h1>Lógica de programação com Javascript</h1>
+
+    <div id="output"></div>
+
+    <script>
+
+        let arrayProdutos = [
+            {
+                'nome': 'caneta',
+                'valor': 5.50
+            },
+            {
+                'nome': 'lapis',
+                'valor': 2
+            }
+        ];
+
+        let msg = '';
+
+        for(let i = 0; i < arrayProdutos.length; i++) {
+            msg += `<h2>Produto: ${arrayProdutos[i].nome}</h2>`;
+            msg += `<p>Preço: ${arrayProdutos[i].valor}</p>`;
+        };
+
+        document.querySelector('#output').innerHTML = msg;
+
+    </script>
+</body>
+</html>

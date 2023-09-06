@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula variáveis e operadores</title>
+</head>
+
+<body>
+    <h1>Lógica de programação</h1>
+    <script>
+        alert('Olá mundo!');
+
+        let num1 = parseFloat(prompt('Digite a primeira nota'));
+        let num2 = parseFloat(prompt('Digite a segunda nota'));
+
+        let media = (num1 + num2) / 2
+
+        if(num1 === 0 || num2 === 0 || media <= 5) {
+            alert(`Sua média é ${media} e você foi reprovado`);
+        } else {
+            alert(`Sua média é ${media} e você foi aprovado`);
+        };
+        
+    </script>
+</body>
+
+</html>

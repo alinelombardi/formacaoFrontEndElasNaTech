@@ -1,0 +1,369 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+/* Estilos da seção de cabeçalho e menu */
+header {
+    background-color: #00042e;
+    color: #ffffff;
+    padding: 1em 0;
+    font-size: 1.5em;
+   
+}
+
+.logo {
+    margin: 0.5em 5em;
+}
+
+.logo img {
+    max-width: 10em;
+    height: auto;
+    float: left;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00042e;
+    z-index: 1000;
+    color: #013d62;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.5em;
+}
+
+nav ul li {
+    margin: 0 1.2em;
+    padding: 1em 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #013d62;
+    transition: color 0.3s;
+} 
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Estilos da seção de apresentação */
+.apresentacao {
+    position: relative;
+    overflow: hidden;
+    height: 46em;
+}
+
+.apresentacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.apresentacao-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    max-width: 50em;
+    padding: 1.25em;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.apresentacao-texto {
+    font-size: 1.5em;
+    margin-bottom: 1.25em;
+    font-style: italic;
+}
+
+.btn-inicio {
+    display: inline-block;
+    padding: 0.63em 1.25em;
+    background-color: #013d62;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos da seção de background */
+.background-bege {
+    background-color: #F5F5DC;
+    color: #1A237E;
+}
+
+.background-azul {
+    background-color: #001329;
+    color: #F5F5DC;
+}
+
+.background-black {
+    background-color: black;
+    color: #F5F5DC;
+}
+
+/* Estilos da seção de problemas */
+.problemas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+#problema-titulo {
+    padding-top: 1em;
+    align-items: center;
+    text-align: center;
+    color: #001329;
+}
+
+.problemas-coluna h3 {
+    color: #001329;
+}
+
+.problemas-coluna {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #F5F5DC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    
+}
+
+/* Estilos da seção de consequências */
+.consequencias-linhas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.consequencias-conteudo,
+.consequence-image {
+    flex-basis: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.consequence-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos da seção de metas */
+.metas-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.metas-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.metas-conteudo h2 {
+    margin-bottom: 20px;
+}
+
+.metas-conteudo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.metas-conteudo li {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilos da seção de sobre */
+.sobre-conteudo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.sobre-conteudo h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-conteudo img {
+    max-width: 20%;
+    margin-right: 2em;
+    margin-left: 5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sobre-conteudo p {
+    max-width: 50%;
+    text-align: justify;
+}
+
+/* Estilos do formulário de contato */
+.formulario-contato {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.formulario-contato h2 {
+    padding: 1em;
+    text-align: center;
+}
+
+.formulario-contato label {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato textarea {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-contato textarea {
+    resize: vertical;
+}
+
+.formulario-contato input[type="submit"] {
+    background-color: #001329;
+    color: #F5F5DC;
+    padding: 1em 5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; 
+    margin-top: 1em;
+}
+
+.formulario-contato input[type="submit"]:hover {
+    background-color: #013d62;
+}
+
+/* Estilos do rodapé */
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #00042e;
+        position: absolute;
+        top: 70px; /* Ajuste conforme necessário */
+        right: 0;
+        width: 100%;
+        border-top: 1px solid #fff;
+        z-index: 1000;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .menu-toggle input {
+        display: none;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #fff;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .menu-toggle input:checked ~ span:nth-child(2) {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    .menu-toggle input:checked ~ span:nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    .menu-toggle input:checked ~ span:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    .problemas-coluna, .consequencias-linhas {
+        flex-basis: 100%;
+    }
+
+    .metas-conteudo {
+        padding: 20px;
+    }
+
+    .sobre-conteudo {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .sobre-conteudo img {
+        max-width: 40%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .sobre-conteudo p {
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .formulario-contato label, .formulario-contato input, .formulario-contato textarea, .formulario-contato button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

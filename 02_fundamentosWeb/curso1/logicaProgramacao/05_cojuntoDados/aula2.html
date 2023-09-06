@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjunto de dados</title>
+</head>
+
+<body>
+
+    <h1>Lógica de programação com Javascript</h1>
+
+    <div id="output"></div>
+
+    <script>
+
+        let produto = new Object();
+
+        produto.nome = 'caneta';
+        produto.preco = 2;
+        produto.estoque = 10;
+
+        let msg = '';
+        msg += `nome: ${produto.nome} <br>`;
+        msg += `preco: ${produto.preco}<br>`;
+        msg += `estoque: ${produto.estoque}<br>`;
+
+        produto.comprar = function() {
+            this.estoque--;
+        };
+
+        let output = document.querySelector('#output').innerHTML = msg;
+
+    </script>
+</body>
+</html>

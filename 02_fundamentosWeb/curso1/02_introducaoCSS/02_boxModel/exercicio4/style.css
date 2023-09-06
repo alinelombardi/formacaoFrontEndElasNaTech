@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif
+}
+
+p {
+    background-color: #ccc;
+   
+}
+
+h1 {
+    background-color: red;
+    padding: 50px;
+}
+
+h2 {
+    background-color: green;
+    margin-top: 56px;
+    border-bottom: 10px solid rgb(4, 43, 4);
+}
+
+.destaque {
+    background-color: orange
+}
+
+.size {
+    width: 50%;
+    height: 100px;
+}
+
+.padding {
+    padding: 16px;
+}
+
+.margin {
+    margin: 50px 0 20px 100px;
+}
+
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.outline { /* outline deixa para fora do elemento a borda*/ 
+    outline: 5px dashed red;
+}
+
+
+.marginDois {
+    background-color: cyan;
+    /* margin: 50px; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box {
+    padding: 25px;
+    border: 10px solid green;
+    box-sizing: border-box;
+    margin-bottom: 250px;
+}

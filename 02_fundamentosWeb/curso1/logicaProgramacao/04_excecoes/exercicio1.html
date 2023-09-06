@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+
+<body>
+    <h1>Lógica de programação com Javascript</h1>
+
+    <h2>**** Area de figuras geométricas ****</h2>
+
+    <button onclick="mostraAreaAlert()">Mostrar área no alert</button>
+    <button onclick="mostraAreaOutput()">Mostrar área no output</button>
+
+    <div id="output"></div>
+
+    <script>
+
+        let area = null;
+        let output = null;
+
+        mostraAreaAlert();
+
+        function mostraAreaAlert() {
+            let largura = parseFloat(prompt('Digite a largura'));
+            let altura = parseFloat(prompt('Digite a altura'));
+
+            try {
+                area = calculaArea(largura, altura);
+            } catch (error) {
+                alert(error);
+                return;
+            };
+
+            alert(area);
+        };
+
+        function mostraAreaOutput() {
+            let largura = parseFloat(prompt('Digite a largura'));
+            let altura = parseFloat(prompt('Digite a altura'));
+
+            try {
+                area = calculaArea(largura, altura);
+            } catch (error) {
+                output = document.querySelector('#output').innerHTML = error;
+                return;
+            };
+
+            output = document.querySelector('#output').innerHTML = area;
+        };
+
+        function calculaArea(largura, altura) {
+            
+            if (isNaN(largura) || isNaN(altura)) {
+                throw new Error('Digite apenas números');
+            };
+
+            let resultado = largura * altura;
+            return resultado;
+        };
+
+    </script>
+
+</body>
+
+</html>

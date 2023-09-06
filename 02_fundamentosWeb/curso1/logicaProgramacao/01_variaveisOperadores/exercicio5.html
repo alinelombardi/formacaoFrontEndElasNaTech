@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula variáveis e operadores</title>
+</head>
+
+<body>
+
+    <h1>Lógica de programação com Javascript</h1>
+
+    <script>
+
+        alert('Olá mundo!');
+        let num1 = parseInt(prompt('Número do jogador 1'));
+        let num2 = parseInt(prompt('Número do jogador 2'));
+
+        let sorteio = parseInt(Math.random() * 2);
+
+        alert(`O número sorteado foi ${sorteio}`);
+
+        if (num1 === num2) {
+            alert(`Deu empate`);
+        } else {
+            if ((sorteio === 0 && num1 < num2) || (sorteio === 1 && num1 > num2)) {
+                alert(`Jogador 1 ganhou`);
+            } else {
+                alert(`Jogador 2 ganhou`);
+            };
+        };
+
+    </script>
+</body>
+
+</html>

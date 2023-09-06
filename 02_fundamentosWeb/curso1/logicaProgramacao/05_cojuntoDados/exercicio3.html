@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjunto de dados</title>
+</head>
+
+<body>
+
+    <h1>Lógica de programação com Javascript</h1>
+
+    <div id="output"></div>
+
+    <script>
+
+        let users = [
+            {
+                'nome': 'Aline',
+                'email': 'aline@gmail.com'
+            },
+            {
+                'nome': 'Laila',
+                'email': 'laila@gmail.com'
+            },
+            {
+                'nome': 'Yuri',
+                'email': 'yuri@gmail.com'
+            }
+        ];
+
+        let msg = '';
+
+        for(let i = 0; i < users.length; i++) {
+
+            msg += `Usuário: ${users[i].nome} - email: ${users[i].email}<br>`;
+        }
+
+        document.querySelector('#output').innerHTML = msg;
+
+
+    </script>
+</body>
+</html>

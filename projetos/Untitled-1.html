@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Menu -->
+  <nav>
+    <ul>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#imagens">Imagens</a></li>
+      <li><a href="#textos">Textos</a></li>
+      <li><a href="#colunas">Seções com colunas</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#creditos">Créditos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Videos -->
+  <section id="videos">
+    <h2>Videos</h2>
+    <!-- Insira aqui o conteúdo relacionado a Videos -->
+  </section>
+
+  <!-- Imagens -->
+  <section id="imagens">
+    <h2>Imagens</h2>
+    <!-- Insira aqui o conteúdo relacionado a Imagens -->
+  </section>
+
+  <!-- Textos -->
+  <section id="textos">
+    <h2>Textos</h2>
+    <!-- Insira aqui o conteúdo relacionado a Textos -->
+  </section>
+
+  <!-- Seções com colunas -->
+  <section id="colunas">
+    <h2>Seções com colunas</h2>
+    <!-- Insira aqui o conteúdo relacionado a Seções com colunas -->
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="/enviar_contato" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone">
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Credits: Autor Desconhecido | Imagens: Fonte Desconhecida</p>
+  </footer>
+</body>
+</html>

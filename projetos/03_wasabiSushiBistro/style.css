@@ -1,0 +1,102 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fc0000f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #logotipo {
+    max-width: 150px;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+  }
+
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Chela One', cursive;
+    color: azure;
+    font-size: 80px;
+    margin-right: 280px;
+
+  }
+  
+ #slogan {
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-right: 280px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .produto {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .produto-info {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #601919;
+    font-family: 'Chela One', cursive;
+  }
+  
+  .descricao {
+    margin-top: 5px;
+  }
+  
+  .preco {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .produto-image img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #fc0000f2;;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .endereco {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .endereco-dados {
+    flex-grow: 1;
+    color: azure;
+    margin-left: 300px;
+  }
+
+
+.endereco-mapa {
+  margin-right: 330px;
+  float: left;
+}
+

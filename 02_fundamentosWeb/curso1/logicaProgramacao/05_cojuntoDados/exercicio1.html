@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjunto de dados</title>
+</head>
+
+<body>
+
+    <h1>Lógica de programação com Javascript</h1>
+
+    <div id="output"></div>
+
+    <script>
+
+        let dias = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado']; //ou
+        let array = new Array ('domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado');
+
+        let output = document.querySelector('#output');
+
+        let hoje = new Date().getDay();
+
+        alert(`Hoje é ${array[hoje]}`)
+
+    </script>
+</body>
+
+</html>

@@ -40,10 +40,26 @@ O **Grupo CCR** atua nos segmentos de concessão de rodovias, mobilidade urbana,
 
 Em breve: 
 
-- 🗂️ Bootstrap 5; - em breve
+- 🗂️ Bootstrap 5;
 
 - 🗂️ Lógica de Programação;
 
 - 🗂️ Programação PYTHON do Zero ao Avançado + Projetos;
 
 - 🗂️ ChatGPT para Python + Projetos.
+
+---
+### 📚 Projetos realizados (em construção)
+
+- 📚 [Curriculo Web](/pj1-alinelombardi/);
+
+- 📚 [Mulheres de TI](/pj2-mulheresNaTech/);
+
+- 📚 [Cardápio Online](/pj3-wasabiSushiBistro/);
+
+
+### 📚 Jornada empregabilidade (em construção)
+
+- Transição de Carreira: como comunicar?
+- Inspiração: Carreira em Tech com Sue Ellen
+- LinkedIn: O que é e como usar? 

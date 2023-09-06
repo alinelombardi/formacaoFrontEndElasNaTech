@@ -1,0 +1,360 @@
+/* configurações iniciais */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+.background-bege {
+    background-color: #F5F5DC;
+}
+
+.background-azul {
+    background-color: #001329;
+}
+
+.limite-pagina {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1.25em;
+    display: flex;
+    justify-content: space-between;
+}
+/* termino configurações iniciais */
+
+/* inicio do menu */
+.menu-opcoes {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+}
+
+.menu-opcoes img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    font-size: 1.5em;
+    margin: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #039dcc;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F5F5DC;
+    font-weight: bold;
+}
+/* termino do menu */
+
+/* inicio do banner */
+.apresentacao {
+    position: relative;
+    overflow: hidden;
+    height: 46em;
+}
+
+.apresentacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.apresentacao-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F5F5DC;
+    width: 80%;
+    max-width: 50em;
+    padding: 1.25em;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 0.5em rgba(0, 0, 0, 0.2);
+}
+
+.apresentacao-texto {
+    font-size: 1.5em;
+    margin-bottom: 1.25em;
+    font-style: italic;
+}
+
+.btn-inicio {
+    display: inline-block;
+    padding: 0.63em 1.25em;
+    background-color: #039dcc;
+    color: #F5F5DC;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-inicio:hover {
+    background-color: #F5F5DC;
+    color: #039dcc;
+}
+/* termino do banner */
+
+/* inicio do projeto */
+.projeto {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2.5em;
+    text-align: justify;
+}
+#projeto-titulo {
+    font-size: 1.5em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.projeto ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.projeto h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.625em;
+}
+
+.projeto p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 0 1.25em 0;
+}
+/* termino projeto */
+
+/* inicio dos problemas */
+.problemas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Alinha os cards no topo da linha */
+    padding: 2em;
+}
+
+#problema-titulo {
+    text-align: center;
+    color: #F5F5DC;
+    padding-top: 2em;
+}
+
+.problemas-coluna {
+    flex-basis: calc(33.33% - 1em);
+    margin: 0.5em;
+    box-sizing: border-box;
+}
+
+.problemas-card {
+    flex-basis: calc(33.33% - 1em);
+    height: 25em;
+    margin: 0.5em;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #F5F5DC;
+    box-shadow: 0px 0px 0.5em rgba(0, 0, 0, 0.2);
+    padding: 1.25em;
+}
+
+.problemas-card img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.problemas-card h3 {
+    color: #001329;
+    margin-bottom: 0.5em;
+}
+
+.problemas-card p {
+    text-align: justify;
+    color: #013d62;
+}
+/* termino dos problemas */
+
+/* inicio das metas */
+.metas-conteudo {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2.5em;
+    text-align: justify;
+}
+
+.metas-conteudo h2 {
+    margin-bottom: 1.25em;
+    color: #001329;
+}
+
+.metas-conteudo ul {
+    list-style: none;
+    padding: 0;
+    color: #001329;
+}
+
+.metas-conteudo li {
+    margin-bottom: 1em;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.metas-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.metas-video a {
+    color: #001329;
+    text-decoration: none;
+}
+/* termino das metas */
+
+/* inicio do sobre */
+.sobre-conteudo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 75em;
+    margin: 0 auto;
+    padding: 2.5em;
+    flex-wrap: wrap;
+    color: #F5F5DC;
+}
+
+.sobre-conteudo h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.25em;
+    font-size: 1.5em;
+}
+
+.sobre-conteudo img {
+    max-width: 20%;
+    margin-right: 2em;
+    margin-left: 5em;
+    box-shadow: 0em 0em 0.625em rgba(255, 255, 255, 0.3);
+}
+
+.sobre-conteudo p {
+    max-width: 50%;
+    text-align: justify;
+}
+/* termino do sobre */
+
+/* inicio contato */
+.contato-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75em;
+    margin: 0 auto;
+    padding: 2.5em;
+    flex-wrap: wrap;
+}
+
+.contato-info {
+    flex-basis: calc(40% - 2em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-info img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 1em;
+}
+
+.redes-sociais a img {
+    max-width: 2em;
+}
+
+.formulario-contato {
+    flex-basis: calc(60% - 2em);
+}
+
+.formulario-contato h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.25em;
+}
+
+.coluna {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+    display: block;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contato textarea {
+    resize: vertical;
+}
+
+.formulario-contato input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background-color: #013d62;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* termino contato */
+
+/* inicio do rodapé */
+.rodape {
+    padding: 2em;
+    text-align: center;
+    color:#F5F5DC
+}
+
+.rodape a {
+    text-decoration: none;
+    color:#F5F5DC
+}
+/* termino do rodapé */
+
+/* responsividade */
